@@ -1,0 +1,173 @@
+body {
+  margin: 0;
+  background: #869dea;  
+background: -webkit-linear-gradient(to right, #ed92f0, #9db0ed); 
+background: linear-gradient(to right, #e998eb, #97aaeb);
+}
+
+#nav{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 15%;
+  background-color: rgb(217, 235, 239);
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  border-right:solid #fbfdfe 3px;
+}
+
+#nav li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-size: 1.5vw;
+}
+
+#nav li a.active {
+  background-color:rgba(236, 93, 150, 0.8);
+  color: white;
+}
+
+#nav li a:hover {
+  background-color: #92bdec;
+  color: white;
+}
+
+#home h1{
+  text-align: center;
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
+  letter-spacing: 2px;
+  font-size: 50px;
+}
+h2{
+  text-align: center;
+}
+#home img, .container img ,#Inte img{
+  display: block;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.Text{
+  padding: 10px;
+  font-size: 1.8vw;
+  background: #cce5ff;
+  box-shadow: 0px 4px 8px 0 rgb(19, 19, 19), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+h1{
+  font-size:2.0vw;
+  text-decoration: underline;
+  text-decoration-style: dashed;
+  letter-spacing: 2px;
+}
+table {
+  border-collapse: collapse;
+  width: 80%;
+  margin: 10px;
+}
+
+th,td {
+  font-style: italic;
+  font-weight: bold;
+  color: #2c2b2b;
+  font-size:1.8vw;
+  padding: 10px;
+  margin: 5px;
+  text-align: left;
+  border-bottom: 2px solid #ddd;
+}
+
+table:hover {
+  background-color: rgb(134, 199, 233);
+  box-shadow: 2px 4px 8px 0 rgb(250, 250, 251), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 50% 50% ;
+  grid-template-rows: auto auto;
+  gap: 5px;
+  background-color: #e3a6e4;
+  padding: 5px;
+  box-shadow: 2px 4px 8px 0 rgb(0, 0, 8), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.grid-container > div {
+  background-color: rgba(221, 226, 233, 0.8);
+}
+.grid-container > div >ul{
+  background: #a1adb9;
+  padding: 1px;
+  margin:10px;
+}
+.grid-container > div >ul>li{
+  overflow: hidden;
+  height: 50px;
+  padding: 10px;
+  list-style-type: none;
+  background: #cce5ff;
+  color: rgb(0, 0, 0);
+  margin: 5px;
+  font-size: 1.8vw;
+}
+.grid-container > div >ul>li:hover{
+  background-color: #f087d2;
+  color: white;
+  border-radius: 10%;
+}
+#Inte p{
+text-align: center;
+}
+#Inte >div{
+  border: solid rgb(255, 253, 253) 10px;
+  background-color: #d3e5f8;
+  border-radius: 20%;
+  padding: 20px;
+  margin: 10px;
+  font-size: 1.8vw;
+  box-shadow: 2px 4px 8px 0 rgb(11, 11, 15), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+#Inte >div:hover{
+  border: solid rgb(228, 165, 226) 10px;
+  background-color: #ef89e3;
+  padding: 20px;
+}
+.container {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 20px;
+  padding: 10px;
+}
+
+.container > div {
+  border-radius: 10%;
+  box-shadow: 2px 4px 8px 0 rgb(11, 11, 15), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.container > div img{
+  border-radius: 10%;
+  height: 100%;
+}
+
+
+#cont p{
+  margin-left: 15%;
+  border: solid;
+  padding: 10px;
+  color: white;
+  font-style: italic;
+  font-size: 1.8vw;
+  box-shadow: 2px 4px 8px 0 rgb(11, 11, 15), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#link img{
+  display: none;
+}
+a img{
+  border-radius: 50%;
+}
